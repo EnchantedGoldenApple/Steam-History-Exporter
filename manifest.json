@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Steam History Exporter",
+    "version": "1.0",
+    "description": "Exports Steam wallet history to a CSV file",
+    "permissions": [
+      "activeTab"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://store.steampowered.com/account/history/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "browser_action": {
+      "default_title": "Export History",
+      "default_popup": "popup.html"
+    }
+  }
+  

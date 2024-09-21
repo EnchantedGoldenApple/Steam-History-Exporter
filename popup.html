@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Export History</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Export History</h1>
+    <div class="options">
+        <label for="skipKiosks">Skip Purchase Kiosks:</label>
+        <input type="checkbox" id="skipKiosks">
+        <br>
+        <label for="includeExpenses">Include Expenses:</label>
+        <input type="checkbox" id="includeExpenses">
+        <div class="tooltip">?
+            <span class="tooltiptext">Creates extra column that includes only money spend from Bank card; ignoring community market and purchases from Steam wallet</span>
+        </div>
+    </div>
+    <button class="export-button" id="export">Export to CSV</button>
+    <div class="link"><a class="link" href="https://store.steampowered.com/account/history/">Go to purchase history</a></div>
+    <script src="popup.js"></script>
+</body>
+</html>
