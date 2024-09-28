@@ -10,25 +10,7 @@ This is a Firefox extension that allows users to export their Steam transaction 
 
 ## Installation
 
-### Prerequisites
-
-- Firefox browser
-- Basic understanding of how to install Firefox extensions
-
-### Steps to Install
-
-1. **Clone the Repository**:
-
-   Open your terminal and run the following command:
-
-   ```bash
-   git clone https://github.com/EnchantedGoldenApple/Steam-History-Exporter.git
-   ```
-
-2. **Load the Extension in Firefox**:
-   - Open Firefox and type `about:debugging#/runtime/this-firefox` in the address bar.
-   - Click on the "Load Temporary Add-on" button.
-   - Select the `manifest.json` file from the extension directory.
+<a href="https://addons.mozilla.org/en-US/firefox/addon/steam-history-exporter/"><img src="https://user-images.githubusercontent.com/585534/107280546-7b9b2a00-6a26-11eb-8f9f-f95932f4bfec.png" alt="Get Steam History Exporter for Firefox"></a>
 
 ### Using the Extension:
 
